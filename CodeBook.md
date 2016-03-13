@@ -20,6 +20,7 @@ Transformations applied (See comments in "run_analysis.R" for full details)
 Variables
 ----
 "SubjectID": An identifier for the subject (the person performing the activity)
+
 "Activity": The activity being performed by the subject (possible values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 "tBodyAcc.mean.X": Average of mean of tBodyAcc (on the X axis)
