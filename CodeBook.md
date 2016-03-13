@@ -11,8 +11,11 @@ More info at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+U
 Transformations applied (See comments in "run_analysis.R" for full details)
 ----
 *Combined (i.e. appended rows) the training and test data sets. "X_test.txt" was combined with "X_train.txt". "y_test.txt" combined with "t_train.txt" "subject_test.txt" combined with "subject_train.txt"
+
 *Joined the combined "X", "Y", and "subject" data. The join was done based on row order.
+
 *Replaced the numeric codes from the "y" data with descriptive labels from "activity_labels.txt"
+
 *Summarized the data: For each unique grouping of SubjectID and Activity, calculated the average of 66 separate columns (see descriptions below)
 
 
