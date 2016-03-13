@@ -6,7 +6,9 @@ README for my class project for JHU's "Getting and cleaning data" course
 File descriptions
 ====
 "run_analysis.R": An R script that fetches data from the UCI Machine Learning Repository's "Human Activity Recognition Using Smartphones Data Set", reshapes and summarizes that data, and writes the results into a text file
+
 "Data_set_summarized.txt": The output file written by "run_analysis.R"
+
 "CodeBook.md": A code book containing information about the data, and the transformations that were applied to it, and descriptions of all the columns in "Data_set_summarized.txt"
 
 How to use
